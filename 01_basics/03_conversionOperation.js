@@ -24,7 +24,7 @@
 
 // let booleanisLoggedIn = Boolean(isLoggedIn)
 
-console.log(booleanisLoggedIn);
+//console.log(booleanisLoggedIn);
 
 let someNumber = 33
 
