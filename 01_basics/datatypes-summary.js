@@ -1,3 +1,5 @@
+//Javascript is dynamically typed
+
 // Primiive Data Type
 // 7 types
 //call by value
@@ -58,3 +60,34 @@ Array - object
 Function - function(object)
 Object - object
 */
+
+
+// *******************************************************//
+
+/*
+Stack (Primitive)=> we get copy, 
+
+Heap memory(Non Primitive) => we get reference, all changes are made in original copy
+
+*/
+
+let myYoutubename = "riasingh"
+
+let anotherName = myYoutubename
+anotherName = "singhria"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "ria@google.com"
+
+console.log(userOne.email); // ria@google.com
+console.log(userTwo.email); //ria@google.com
+
